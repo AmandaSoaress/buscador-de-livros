@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="scripts.js"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2232/2232688.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br></br>
+    <h1> Buscador de livros</h1>
+    <img src="https://www.imagensanimadas.com/data/media/53/livro-imagem-animada-0032.gif" width="140" height="140"
+        alt="" class="logo livro">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Riqueza</th>
+                <th>Inteligência Emocional</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Title: "Os segredos da mente milionária"/ Author: "T. Harv Eker" </td>
+                <td>Title: "Você é Insubstituível"/ Author: "Augusto Cury</td>
+
+            </tr>
+            <tr>
+                <td>Title: "O homem mais rico da Babilônia"/ Author: "George S. Clason"</td>
+                <td>Title: "Ansiedade – Como enfrentar o mal do século"/ Author: "Augusto Cury" </td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Title: "Pai rico, pai pobre"/ Author: "Robert T. Kiyosaki e Sharon L. Lechter"</td>
+            <td>Title: "Os 7 hábitos das pessoas altamente eficazes"/ Author: "Stephen R. Covey"</td>
+
+        </tfoot>
+    </table>
+    
+    <input  type="text" id="opcaoBooks"/>
+    <button onclick="buscador()" id="btnSubmit">Buscar</button>
+       
+    <br></br>
+    <h2> Resposta:<div id="divResposta" style='display:inline'></div>
+
+</body>
+
+</html>
